@@ -1,0 +1,53 @@
+h1{
+    padding-left: 70px;
+}
+.login {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+   
+    
+  }
+
+.form{
+  border: 1px solid #ccc;
+  padding: 50px;
+  box-shadow: 20px 7px 20px rgb(50, 139, 227);
+}
+  
+  input[type="email"],
+  input[type="password"],
+  input[type="firstName"],
+  input[type="lastName"],
+  input[type="phoneNumber"],
+  input[type="userType"],
+  input[type="submit"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .login {
+      max-width: 90%;
+    }
+  }
+  
